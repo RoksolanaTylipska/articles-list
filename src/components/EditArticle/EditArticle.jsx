@@ -9,6 +9,7 @@ function EditArticle({ article, setEditArticleModal }) {
 
   const [editedTitle, setEditedTitle] = useState(title);
   const [editedDescription, setsetEditedDescription] = useState(description);
+  const [error, setError] = useState(false); 
 
   const dispatch = useDispatch();
 
@@ -18,7 +19,7 @@ function EditArticle({ article, setEditArticleModal }) {
 
   const handleEditArticle = () => {
     if (!editedTitle || !editedDescription) {
-      alert(`Title and description can't be empty`);
+      setError(`Title or description can't be empty`)
       return;
     }
   
@@ -35,18 +36,32 @@ function EditArticle({ article, setEditArticleModal }) {
   return (
     <>
       <form className='edit-article' >
-      <input
-        type='text'
-        value={editedTitle}
-        onChange={e => setEditedTitle(e.target.value)}
-        className='edit-article__title'
-      />
-      <textarea
-        type='text'
-        value={editedDescription}
-        onChange={e => setsetEditedDescription(e.target.value)}
-        className='edit-article__description'
-      />
+       <div className='edit-article__input'>
+          <input
+            type='text'
+            placeholder='Enter title'
+            value={editedTitle}
+            onChange={e => setEditedTitle(e.target.value)}
+            className='edit-article__title'
+          />
+          {!editedTitle ?
+            (<lable>{error}</lable>) 
+           : false
+          }
+        </div>
+        <div className='edit-article__input'>
+          <textarea
+            type='text'
+            placeholder='Enter description'
+            value={editedDescription}
+            onChange={e => setsetEditedDescription(e.target.value)}
+            className='edit-article__description'
+          />
+          {!editedDescription ?
+            (<lable>{error}</lable>) 
+           : false
+          }
+        </div>
       </form >
       <span className='edit-article__buttons'>
         <Button content={'Submit'} onClick={handleEditArticle} />

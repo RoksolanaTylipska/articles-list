@@ -8,7 +8,6 @@
   }
 }
 
-
 .articles-list__items-container {
   display: flex;
   flex-direction: column;
@@ -56,3 +55,20 @@
   border-bottom-color: var(--secondary-text-color);
 }
 
+.articles-list__buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 70px;
+  bottom: 50px;
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+
+  @media (min-width: 576px) {
+    height: 60px;
+    width: 60px;
+    font-size: 45px;
+  }
+}
