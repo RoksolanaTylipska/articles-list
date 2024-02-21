@@ -4,7 +4,7 @@
   width: 80%;
 
   @media (min-width: 992px) {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -42,7 +42,7 @@
   font-size: 17px;
   width: 100%;
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
   border-bottom: 1px solid var(--secondary-text-color);
   color: var(--primary-text-color);
   outline: none;

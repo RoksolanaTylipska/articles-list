@@ -11,7 +11,7 @@ function NewArticle({ setNewArticleModal }) {
 
   const handleAddArticle = () => {
     if (!newArticleTitle || !newArticleDescription) {
-      alert('Please enter both title and description');
+      alert(`Title and description can't be empty`)
       return;
     }
   
