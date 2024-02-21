@@ -28,7 +28,7 @@
 .new-article__input {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 }
 
 .new-article__input-container lable {
