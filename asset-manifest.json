@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/articles-list/static/css/main.1b618bec.css",
+    "main.js": "/articles-list/static/js/main.a96a9316.js",
+    "static/media/Topography.png": "/articles-list/static/media/Topography.6d6e53e81f08c6a788c9.png",
+    "static/media/Topography-light.png": "/articles-list/static/media/Topography-light.509d7f37306c291635b6.png",
+    "index.html": "/articles-list/index.html",
+    "static/media/dark_mode_black_24dp.svg": "/articles-list/static/media/dark_mode_black_24dp.fdb51e7c4ec36ce7cfc7.svg",
+    "static/media/brightness_5_white_24dp.svg": "/articles-list/static/media/brightness_5_white_24dp.f97d08c0409f0a2ec4ef.svg",
+    "static/media/push_pin_black_24dp.svg": "/articles-list/static/media/push_pin_black_24dp.fc1f6e95ecfaca64d7f2.svg",
+    "static/media/push_pin_white_24dp.svg": "/articles-list/static/media/push_pin_white_24dp.2f8c428547e8f17100ef.svg",
+    "static/media/edit_black_24dp.svg": "/articles-list/static/media/edit_black_24dp.4fa02ba3eeb22ca444b3.svg",
+    "static/media/edit_white_24dp.svg": "/articles-list/static/media/edit_white_24dp.83e859470da2612c0204.svg",
+    "static/media/close_black_24dp.svg": "/articles-list/static/media/close_black_24dp.244b66874c46718f7e06.svg",
+    "static/media/close_white_24dp.svg": "/articles-list/static/media/close_white_24dp.604f17ae9e7f7ab96de7.svg",
+    "static/media/delete_black_24dp.svg": "/articles-list/static/media/delete_black_24dp.1129c53a10f3c7163570.svg",
+    "static/media/delete_white_24dp.svg": "/articles-list/static/media/delete_white_24dp.68aade56655f922f91f9.svg",
+    "main.1b618bec.css.map": "/articles-list/static/css/main.1b618bec.css.map",
+    "main.a96a9316.js.map": "/articles-list/static/js/main.a96a9316.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b618bec.css",
+    "static/js/main.a96a9316.js"
+  ]
+}
