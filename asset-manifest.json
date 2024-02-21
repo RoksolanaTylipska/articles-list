@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/articles-list/static/css/main.1b618bec.css",
-    "main.js": "/articles-list/static/js/main.a96a9316.js",
+    "main.css": "/articles-list/static/css/main.fb34e9c4.css",
+    "main.js": "/articles-list/static/js/main.93dcbdb7.js",
     "static/media/Topography.png": "/articles-list/static/media/Topography.6d6e53e81f08c6a788c9.png",
     "static/media/Topography-light.png": "/articles-list/static/media/Topography-light.509d7f37306c291635b6.png",
     "index.html": "/articles-list/index.html",
@@ -15,11 +15,11 @@
     "static/media/close_white_24dp.svg": "/articles-list/static/media/close_white_24dp.604f17ae9e7f7ab96de7.svg",
     "static/media/delete_black_24dp.svg": "/articles-list/static/media/delete_black_24dp.1129c53a10f3c7163570.svg",
     "static/media/delete_white_24dp.svg": "/articles-list/static/media/delete_white_24dp.68aade56655f922f91f9.svg",
-    "main.1b618bec.css.map": "/articles-list/static/css/main.1b618bec.css.map",
-    "main.a96a9316.js.map": "/articles-list/static/js/main.a96a9316.js.map"
+    "main.fb34e9c4.css.map": "/articles-list/static/css/main.fb34e9c4.css.map",
+    "main.93dcbdb7.js.map": "/articles-list/static/js/main.93dcbdb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b618bec.css",
-    "static/js/main.a96a9316.js"
+    "static/css/main.fb34e9c4.css",
+    "static/js/main.93dcbdb7.js"
   ]
 }
