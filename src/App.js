@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './components/Header/Header';
+import ArticlesList from './components/ArticlesList/ArticlesList';
+
+import NotFound from './components/NotFound/NotFound';
+import News from './components/News/News';
+import { useState } from 'react';
 
 function App() {
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${theme}`}>
+      <Header setTheme={setTheme} theme={theme} />
+      <Routes>
+        <Route path="/" element={<ArticlesList />} />
+        <Route path="/articles" element={<ArticlesList />} />
+        <Route path="/news" element={<News />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      
+
     </div>
   );
 }

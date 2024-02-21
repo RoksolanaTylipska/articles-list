@@ -1,0 +1,45 @@
+.edit-article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.edit-article__description, .edit-article__title{
+  height: 30px;
+  min-width: 80%;
+  max-width: 80%;
+  max-height: 250px;
+  font-family: "Roboto Flex", sans-serif;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 5px;
+  outline: none;
+
+  @media (min-width: 576px) {
+    padding: 8px;
+  }
+}
+
+.edit-article__buttons{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.edit-article__buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+
+}
+
+.edit-article__buttons button:last-child {
+  background-color: var(--third-background-color);
+  color: var(--third-text-color);
+}
+
