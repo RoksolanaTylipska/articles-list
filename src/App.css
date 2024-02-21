@@ -13,11 +13,12 @@
   --primary-text-color: #fff;
   --secondary-text-color: #91D2D5;
   --third-text-color: #C3C7C7;
+  --placeholder-text-color: #C3C7C7;
   --delete-icon: url("./img/delete_white_24dp.svg");
   --edit-icon: url("./img/edit_white_24dp.svg");
   --pin-icon: url("./img/push_pin_white_24dp.svg");
   --close-icon: url("./img/close_white_24dp.svg");
-  --theme-button: url("./img/brightness_5_white_24dp.svg");
+  --theme-button: url("./img/light_mode_white_24dp.svg");
 }
 
 .light {
@@ -28,6 +29,7 @@
   --primary-text-color: #191C1C;
   --secondary-text-color: #00696D;
   --third-text-color: #3F4949;
+  --placeholder-text-color: #C3C7C7;
   --delete-icon: url("./img/delete_black_24dp.svg");
   --edit-icon: url("./img/edit_black_24dp.svg");
   --pin-icon: url("./img/push_pin_black_24dp.svg");

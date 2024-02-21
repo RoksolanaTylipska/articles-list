@@ -32,15 +32,22 @@
   min-width: 90%;
   max-width: 90%;
   max-height: 250px;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   border: 1px solid transparent;
   border-radius: 8px;
   padding: 10px;
 
   @media (min-width: 576px) {
-    padding: 8px;
+    padding: 20px;
     margin-bottom: 20px;
   }
+}
+
+.new-article textarea::placeholder, 
+.new-article input::placeholder{
+  color: var(--placeholder-text-color)
 }
 
 .new-article__title {
@@ -49,7 +56,8 @@
 }
 
 .new-article__description {
-  min-height: 250px;
+  min-height: 150px;
+  max-height: 350px;
   font-family: "Roboto Flex", sans-serif;
   font-size: 15px;
   color: #1A1C1C;

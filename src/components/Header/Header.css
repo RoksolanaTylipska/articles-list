@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 55px;
+  padding: 14px 20px;
   height: 77px;
   z-index: 1;
 
@@ -13,13 +13,13 @@
   background-color: var(--background-color);
 
   @media (min-width: 576px) {
-    padding: 18px 92px;  
+    padding: 18px 30px;  
     justify-content: space-between;
   }
 }
 
 .header__menu-item a {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--primary-text-color);
 
   @media (min-width: 576px) {
@@ -34,11 +34,10 @@
 
 .header__menu {
   display: flex;
-  flex-direction: column;
   gap: 15px;
+  align-items: start;
 
   @media (min-width: 576px) {
-    flex-direction: row;
     gap: 30px;
   }
 }

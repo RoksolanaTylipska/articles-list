@@ -3,6 +3,7 @@ button {
   background-color:var(--secondary-text-color);
   
   color: var(--third-background-color);
+  cursor: pointer;
 
   border: 1px solid transparent;
   border-radius: 36px;
