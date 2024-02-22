@@ -6,7 +6,7 @@ import { CircularProgress } from '@mui/material';
 
 const apiKey = 'a06c78e095c6450dab617c2efd162eb4';
 const pageSize = 10;
-const country = 'ua';
+const country = 'us';
 const BASE_URL = `https://newsapi.org/v2/top-headlines?country=${country}&pageSize=${pageSize}&apiKey=${apiKey}`;
 
 const News = () => {

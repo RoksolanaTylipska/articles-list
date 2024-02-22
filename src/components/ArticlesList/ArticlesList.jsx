@@ -14,6 +14,7 @@ function ArticleList() {
     return article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
            article.description.toLowerCase().includes(searchTerm.toLowerCase());
   });
+  
 
   return (
     <main className='articles-list'>
